@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trying to built a website</title>
+    <style>
+        body{
+            background-color: white;
+        }
+        header{
+            background-color: rgb(230,230,230);
+            color: #1111;
+            padding: 20px;
+            margin: 10px;
+        }
+        nav{
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            margin: 15px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 5px 10px;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        h1{
+            color: #111111;
+            text-align: center;
+            font-family: arial;
+            font-size: 60px;
+            padding:20px;
+            margin: 15px;
+        }
+        .content {
+            padding: 20px;
+            background-color: #fff;
+        }
+        p{
+            color: black;
+            font-family: georgia;
+            font-size: 30px;
+        }
+        footer{
+            background-color: rgb(230,230,230);
+            color: #1111;
+            padding: 20px;
+            margin: 20px;
+        }    
+    </style>
+</head>
+    <body>
+        <header>
+            <h1>Welcome to Cart!</h1>
+            <p style="text-align:center;">This is a website for buying anything online just go to Products section check out our  products items</p>
+        </header>
+            <nav>
+                <a href="#Home">Home</a>
+                <a href="#About us">About us</a>
+                <a href="#Products">Products</a>
+                <a href="Contact Us">Contact Us</a>
+            </nav>
+            <div class="content">
+                <section id="Home">
+                    <h2 style="font-size:40px">Home</h2>
+                    <p>Welcome to Cart, where convenience meets quality. Discover millions of products at unbeatable prices, with fast delivery right to your doorstep. From electronics to fashion, home essentials to luxury items, we've got everything you need under one roof. Shop with confidence knowing that every purchase is protected by our satisfaction guarantee and 24/7 customer support.</p>
+                </section>
+                <section id="About us">
+                    <h2 style="font-size:40px">About us</h2>
+                    <p>We are a team of passionate and dedicated individuals committed to creating high-quality products and delivering exceptional customer service. Our mission is to help our customers achieve their goals and make a positive impact on the world around them.</p>
+                </section>
+                <section id="Products">
+                    <h2 style="font-size:40px">Products</h2>
+                    <ul style="list-style-type: circle;font-size:25px;">
+                        <li>Electronics</li>
+                        <li>Fashion</li>
+                        <li>Home Essentials</li>
+                        <li>Luxury Items</li>
+                        <li>Sports & Outdoors</li>
+                        <li>Books & Magazines</li>
+                        <li>Travel & Lifestyle</li>
+                        <li>Groceries & Pantry</li>
+                        <li>Toys & Games</li>
+                        <li>Health & Beauty</li>
+                        <li>Kids & Baby</li>
+                        <li>Pet Supplies</li>
+                        <li>Home & Garden</li>
+                        <li>Automotive</li>
+                        <li>Industrial & Scientific</li>
+                        <li>Office Products</li>
+                        <li>Construction & Design</li>
+                        <li>Religious & Cultural</li>
+                    </ul>
+                </section>
+                <section id="Contact Us">
+                    <h2 style="font-size:40px">Contact Us</h2>
+                    <form >
+                        <label for="name" style="font-size:25px;">Name :</label><br>
+                        <input type="text" id="name" name="name" required><br><br>
+                        <label for="email" style="font-size:25px;">Email :</label><br>
+                        <input type="email" id="email" name="email" required><br><br>
+                        <label for="message" style="font-size:25px;">Message:</label><br>
+                        <textarea id="message" name="message" rows="10" cols="30" required></textarea><br><br>
+                        <input type="submit" value="Send message">
+                    </form>
+                </section>
+                <footer>
+                    <p style="text-align:center;font-size:30px;">Cart &copy; 2025 all right reserved</p>
+                </footer>
+        </div>
+    </body>
+</html>
